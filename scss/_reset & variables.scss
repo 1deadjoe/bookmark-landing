@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+$soft-blue: hsl(231, 69%, 60%);
+$soft-red: hsl(0, 94%, 66%);
+$grayish-blue: hsl(229, 8%, 60%);
+$secondary-gray: rgb(226, 226, 226);
+$very-dark-blue: hsl(229, 31%, 21%);
+$black: hsl(0, 0%, 0%);
+$white: hsl(0, 0%, 100%);
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  scroll-behavior: smooth;
+}
